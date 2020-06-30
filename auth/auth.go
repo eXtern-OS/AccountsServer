@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"../utils"
+	"externos.io/AccountsServer/utils"
 	"fmt"
 	"strconv"
 	"time"

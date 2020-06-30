@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
-    <title>Dashtreme Admin - Free Dashboard for Bootstrap 4 by Codervent</title>
+    <title>eXternOS Account</title>
     <!-- loader-->
     <link href="assets/css/pace.min.css" rel="stylesheet"/>
     <script src="assets/js/pace.min.js"></script>
@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="bg-theme bg-theme1">
+<body class="bg-theme bg-theme2">
 
 <!-- start loader -->
 <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div>
@@ -51,9 +51,9 @@
                     <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Card image cap">
                 </div>
                 <div class="card-body pt-5">
-                    <div class="avatar"><img class="align-self-start mr-3" src="{{.avatar_url}}" alt="user avatar" height="110" width="110"></div>                    <h5 class="card-title">{{.name}}</h5>
+                    <img src="{{.avatar_url}}" alt="profile-image" class="profile">
+                    <h5 class="card-title">{{.name}}</h5>
                     <p class="card-text">Registered since {{.registered_date}}</p>
-
                 </div>
 
             </div>
@@ -68,7 +68,7 @@
                         <div class="tab-pane active" id="edit">
                             <form>
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label">Name</label>
+                                    <label class="col-lg-3 co}l-form-label form-control-label">Name</label>
                                     <div class="col-lg-9">
                                         <input class="form-control" type="text" value="{{.name}}" name="name">
                                     </div>
@@ -140,49 +140,12 @@
 <footer class="footer">
     <div class="container">
         <div class="text-center">
-            Copyright © 2018 Dashtreme Admin
+            Copyright © 2020 eXternOS Developers Team
         </div>
     </div>
 </footer>
 <!--End footer-->
 
-<!--start color switcher-->
-<div class="right-sidebar">
-    <div class="switcher-icon">
-        <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
-    </div>
-    <div class="right-sidebar-content">
-
-        <p class="mb-0">Gaussion Texture</p>
-        <hr>
-
-        <ul class="switcher">
-            <li id="theme1"></li>
-            <li id="theme2"></li>
-            <li id="theme3"></li>
-            <li id="theme4"></li>
-            <li id="theme5"></li>
-            <li id="theme6"></li>
-        </ul>
-
-        <p class="mb-0">Gradient Background</p>
-        <hr>
-
-        <ul class="switcher">
-            <li id="theme7"></li>
-            <li id="theme8"></li>
-            <li id="theme9"></li>
-            <li id="theme10"></li>
-            <li id="theme11"></li>
-            <li id="theme12"></li>
-            <li id="theme13"></li>
-            <li id="theme14"></li>
-            <li id="theme15"></li>
-        </ul>
-
-    </div>
-</div>
-<!--end color switcher-->
 
 
 

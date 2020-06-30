@@ -1,10 +1,10 @@
 package main
 
 import (
-	"./auth"
-	"./db"
-	"./web"
 	"encoding/json"
+	"externos.io/AccountsServer/auth"
+	"externos.io/AccountsServer/db"
+	"externos.io/AccountsServer/web"
 	"fmt"
 	"github.com/eXtern-OS/AMS"
 	beatrix "github.com/eXtern-OS/Beatrix"
@@ -167,5 +167,5 @@ func main() {
 		return
 	})
 
-	r.Run()
+	r.Run(":80")
 }
