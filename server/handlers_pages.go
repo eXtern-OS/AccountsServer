@@ -87,6 +87,7 @@ func handleRegisterPost(c *gin.Context) {
 		c.Abort()
 		return
 	}
+	//Ams register wants username, we don't need 'em | Suppress it with username
 	AMS.Register(name, username, username, avatarurl, password, website, email)
 	c.Redirect(http.StatusTemporaryRedirect, "/login")
 	c.Abort()

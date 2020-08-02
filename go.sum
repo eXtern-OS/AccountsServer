@@ -9,6 +9,8 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/eXtern-OS/AMS v0.0.0-20200605192835-1d9a867ad01d h1:qLoVniLv2NQB8eoC3Kugf7ISyPr49+i5t7t6MQdyEQU=
 github.com/eXtern-OS/AMS v0.0.0-20200605192835-1d9a867ad01d/go.mod h1:+mBfF1UjOnO2/iXFb9C0/5zAC0koyLZIy/qooowhArM=
+github.com/eXtern-OS/AMS v0.0.0-20200802104336-994e2c073bc3 h1:lc1d0ph9JQelJ/KoLf7w5H2PtQNdSL2L+Hz7HS2CU0A=
+github.com/eXtern-OS/AMS v0.0.0-20200802104336-994e2c073bc3/go.mod h1:+mBfF1UjOnO2/iXFb9C0/5zAC0koyLZIy/qooowhArM=
 github.com/eXtern-OS/Beatrix v0.0.0-20200614151600-596629c733b2 h1:7IoJpRd59GrGCuDPiSSpkdgPLrDiaOXocRY/MrynHtw=
 github.com/eXtern-OS/Beatrix v0.0.0-20200614151600-596629c733b2/go.mod h1:qkYq4RKD4mRmoIu1eP52z6XMukpw77/bTu/kr4DAJrM=
 github.com/eXtern-OS/TokenMaster v0.0.0-20200605102736-10ca27ff5a1c h1:ETlM1MCw1okPdBzgmwP2W5mn4kSjXQ1rrCuWP5VKH6s=
