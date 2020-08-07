@@ -24,7 +24,8 @@ func handleApiNewToken(c *gin.Context) {
 	var cr Credentials
 	if c.BindJSON(&cr) == nil {
 		if cr.Login == "" || cr.Password == "" {
-			c.Status(http.StatusNoContent)
+			c.Status(http.StatusBadRequest)
+			return
 		} else {
 			code, t := AMS.GetToken(cr.Login, cr.Password, c.ClientIP())
 			if code != http.StatusOK {
@@ -50,7 +51,7 @@ func handleApiRegister(c *gin.Context) {
 		}
 
 		if !AMS.Register(rgc.Name, rgc.Username, rgc.Username, rgc.Avatarurl, rgc.Password, rgc.Website, rgc.Email) {
-			c.Status(http.StatusInternalServerError)
+			c.Status(http.StatusBadRequest)
 		} else {
 			c.Status(http.StatusOK)
 		}
